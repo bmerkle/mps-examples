@@ -96,12 +96,6 @@
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
-      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
-      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -348,11 +342,6 @@
         </node>
         <node concept="1DcWWT" id="3jB1NXENWXA" role="3cqZAp">
           <node concept="3clFbS" id="3jB1NXENWXC" role="2LFqv$">
-            <node concept="3SKdUt" id="3jB1NXENXMc" role="3cqZAp">
-              <node concept="3SKdUq" id="3jB1NXENXMd" role="3SKWNk">
-                <property role="3SKdUp" value="do something here: maybe insert the reference's name?" />
-              </node>
-            </node>
             <node concept="3cpWs8" id="3jB1NXENXPU" role="3cqZAp">
               <node concept="3cpWsn" id="3jB1NXENXPX" role="3cpWs9">
                 <property role="TrG5h" value="refE" />
